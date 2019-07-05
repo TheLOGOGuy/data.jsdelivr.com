@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - lodash:
+        patched: '2019-07-05T02:16:17.841Z'
+    - '@octokit/rest > lodash':
+        patched: '2019-07-05T02:16:17.841Z'
+    - config-mapper-env > lodash:
+        patched: '2019-07-05T02:16:17.841Z'
+    - elastic-apm-utils > lodash:
+        patched: '2019-07-05T02:16:17.841Z'
+    - elasticsearch > lodash:
+        patched: '2019-07-05T02:16:17.841Z'
+    - h-logger2 > lodash:
+        patched: '2019-07-05T02:16:17.841Z'
+    - knex > lodash:
+        patched: '2019-07-05T02:16:17.841Z'
+    - gh-badges > chrome-web-store-item-property > cheerio > lodash:
+        patched: '2019-07-05T02:16:17.841Z'
