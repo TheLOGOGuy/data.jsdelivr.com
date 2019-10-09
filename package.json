@@ -5,7 +5,7 @@
 	"private": true,
 	"main": "./src/index.js",
 	"dependencies": {
-		"@octokit/rest": "^15.15.1",
+		"@octokit/rest": "^16.0.0",
 		"bluebird": "^3.5.2",
 		"config": "^2.0.1",
 		"config-mapper-env": "^1.0.0",
